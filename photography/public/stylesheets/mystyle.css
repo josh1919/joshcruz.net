@@ -1,0 +1,278 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+/**{
+	border: 1px solid red !important;
+}*/
+
+html { 
+	height: 100%; 
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	color: white;
+	background-color: black;
+}
+
+body {
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /*WC3*/
+	background-repeat: no-repeat;
+	width: 100%; 
+	height: 100%; 
+	position:relative;
+	margin: 0;
+	padding: 0; 
+	border: 0;
+	margin-bottom: 48px;
+	font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#bodyWrapper {
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 35px;
+}
+
+#main {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	height: 100%;
+	width:100%;
+}
+
+.presentlocation{
+	text-decoration: underline;	
+	font-weight: bold;
+	font-style: oblique;
+}
+
+
+#leftbar {
+	border-style:none solid none none;
+	border-right-color: white;
+	margin-right: 5px;
+	padding: 2px;
+}
+
+#leftbar a:link {
+	color: black;
+	text-decoration: none;
+}
+#leftbar a:visited {
+	color: black;
+	text-decoration: none;
+}
+#leftbar a:hover {
+	color: white;
+	background-color: black;
+}
+
+#maincontent {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+}
+
+#footer { 
+	height: 35px; 
+	margin: 0; 
+	text-align: center; 
+  	background: black;
+  	color: white;
+  	position: absolute;
+  	width: 100%;
+  	bottom: 0;
+}
+
+.photo{
+	padding: 0.5em;
+	border: 2px solid black;
+	max-height: 100%;
+	max-width: 1
+}
+
+.col-1{
+	width:8.33%;
+}
+.col-2{
+	width:16.66%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-6{
+	width: 49.99%;
+}
+.col-7{
+	width: 58.32%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-12{
+	width: 100%;
+}
+/* code found @ http://code.runnable.com/U8d3iuIJW1lq3_xN/how-to-create-css-menu-drop-down-simple-tutorial-for-php */
+/* Navigation bar along top*/
+#myNav {
+	margin: 0px 0px 15px 0px;
+	padding: 0;
+	background: black;
+	min-height: 48px;
+}
+
+#myNav ul{
+	margin: 0;
+	padding: 0;
+	height: 48px;
+	/*height:30px;*/
+	/*text-align: center;*/
+}
+
+#myNav li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	background: black;	
+	/*height: 30px;*/
+	/*text-align: center;*/
+	/*padding-top: 7px;*/
+}
+#myNav ul li a{
+	text-align:center;
+	text-decoration:none;
+	font-size: 18px;
+	display:block;
+	color:white;
+	height: 48px;
+	line-height: 48px;
+	font-weight: 700;
+	vertical-align: baseline;
+}
+
+#myNav ul ul{
+	position:absolute;
+	visibility: hidden;
+	top:48px;
+	width:100%;
+}
+
+#myNav ul li ul li {
+	width: 100%;
+}
+#myNav ul li:hover ul {
+	visibility:visible;
+}
+
+#myNav li:hover {
+	background:gray;
+}
+
+#myNav ul li:hover ul li a:hover{
+	background:gray;
+	color:white;
+
+}
+
+/*
+*
+*
+* Mobile Nav
+*
+*/
+
+#mobileNav{
+	display: none;
+	margin: 0px 0px 15px 0px;
+	padding: 0;
+	background: black;
+	min-height: 48px;
+	color:white;
+	line-height: 48px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+#hamburger{
+	float:right; 
+	width: 48px; 
+	height:35px;
+}
+
+#hamburger_menu{
+	display: none;
+	padding:10px;
+	list-style-type: none;
+	text-align: right;
+}
+
+#hamburger_menu li a{
+	color:white;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 660px){
+	#maincontent{
+		padding: 0;
+		justify-content: center;
+	}
+/*	.photo{
+		height:200px;
+	}*/
+}
+
+
+#navWrapper {
+	width: 100%;
+	display: inline;	
+}
+
+#mainContentEditing {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#addThumbButton {
+	border:2px solid black;
+}
+
+#deleteContainer {
+	display:flex;
+	flex-wrap:wrap;
+	text-align: left;
+	border:2px solid black;
+}
+
+div.message { 
+	width: 100%;
+	border: 2px solid #8D0D19;
+	color: #8D0D19; font-weight: bold;
+	margin: 1em 0 ; padding: 1em; 
+}
