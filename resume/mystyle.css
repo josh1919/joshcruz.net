@@ -1,0 +1,259 @@
+
+.pad50 {
+  padding: 100px;
+  padding-bottom: 200px;
+}
+
+.pad25 {
+  padding: 25px;
+}
+
+.padTop50 {
+  padding-top: 150px;
+}
+
+.padBottom50 {
+  padding-bottom: 150px;
+}
+
+#home {
+  background-image: url('http://cdn.paper4pc.com/images/wave-wallpaper-1.jpg');
+  font-size: 1.4em;
+}
+
+#about {
+  background-image: url('http://paper-backgrounds.com/textureimages/2012/05/white-gray-concrete-wall-texture-hd.jpg');
+  color: black;
+  font-size: 1.4em;
+  background-color: rgb(214, 244, 255);
+  background-blend-mode: multiply;
+}
+
+#portfolio {
+  background-image: url('http://photography.joshcruz.net/public/images/fence120HR.jpg');
+}
+
+.bg-setup {
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-bg{
+  background-color: rgba(192, 189, 189, 0.85);
+  padding:15px;
+  margin:10px;
+}
+.well{
+  background-color: rgba(192, 189, 189, 0.85);
+}
+
+#contact {
+  height: 200px;
+  line-height: 200px;
+  background-color: #EDECED;
+}
+
+.row-centered {
+  text-align: center;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 8px #FFFFFF;
+}
+
+.text-shadow-small{
+	text-shadow: 2px 2px 2px #FFF;
+}
+
+#page-footer {
+  margin-top: 20px;
+}
+
+.navbar-copyright{
+  float: right;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.bg-grey{
+  border-radius:15px;
+  background-color:#B2B2B2;
+  opacity:;
+}
+
+
+/*
+*
+*
+* legacy header code 
+*
+*
+*/
+
+
+
+
+#myNav {
+  margin: 0px 0px 15px 0px;
+  padding: 0;
+  background: black;
+  min-height: 48px;
+}
+
+#myNav ul{
+  margin: 0;
+  padding: 0 10px;
+  height: 48px;
+  /*height:30px;*/
+  /*text-align: center;*/
+}
+
+#myNav li{
+  margin: 0;
+  padding: 0 10px;
+  list-style: none;
+  float: left;
+  position: relative;
+  background: black;  
+  /*height: 30px;*/
+  /*text-align: center;*/
+  /*padding-top: 7px;*/
+}
+#myNav ul li a{
+  text-align:center;
+
+
+  text-decoration:none;
+  font-size: 18px;
+  display:block;
+  color:white;
+  height: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  vertical-align: baseline;
+}
+
+#myNav ul ul{
+  position:absolute;
+  visibility: hidden;
+  top:48px;
+  width: 100%;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#myNav ul li ul li {
+  width: 100%;
+}
+#myNav ul li:hover ul {
+  visibility:visible;
+}
+
+#myNav li:hover {
+  background:gray;
+}
+
+#myNav ul li:hover ul li a:hover{
+  background:gray;
+  color:white;
+
+}
+
+/*
+*
+*
+* mobile nav
+*
+*
+*/
+
+#mobileNav{
+  display: none;
+  margin: 0px 0px 15px 0px;
+  padding: 0;
+  background: black;
+  min-height: 48px;
+  color:white;
+  line-height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#hamburger{
+  float:right; 
+  width: 48px; 
+  height:35px;
+}
+
+#hamburger_menu{
+  display: none;
+  padding:10px;
+  list-style-type: none;
+  text-align: right;
+}
+
+#hamburger_menu li a{
+  color:white;
+  text-decoration: none;
+}
+
+/*
+*
+*
+*
+* Standard column widths
+*
+*
+*/
+
+.col-1{
+  width:8.33%;
+}
+.col-2{
+  width:16.66%;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.33%;
+}
+.col-5{
+  width: 41.66%;
+}
+.col-6{
+  width: 49.99%;
+}
+.col-7{
+  width: 58.32%;
+}
+.col-8{
+  width: 66.66%;
+}
+.col-9{
+  width: 75%;
+}
+.col-10{
+  width: 83.33%;
+}
+.col-11{
+  width: 91.66%;
+}
+.col-12{
+  width: 100%;
+}
