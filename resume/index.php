@@ -183,7 +183,7 @@
 					<a href="http://csblog.joshcruz.net">
 						<img src="assets/csblog2.PNG">
 						<caption>
-							<button onClick="location.href = 'http://csblog.joshcruz.net'">joshcruz.net</button>
+							<button onClick="location.href = 'http://csblog.joshcruz.net'">CS Blog</button>
 						</caption>
 					</a>
 				</div>
@@ -196,7 +196,7 @@
 					<a href="http://photography.joshcruz.net">
 						<img src="assets/photography.PNG">
 						<caption>
-							<button onClick="location.href = 'http://photography.joshcruz.net'">photography.joshcruz.net</button>
+							<button onClick="location.href = 'http://photography.joshcruz.net'">Photography CMS</button>
 						</caption>
 					</a>
 				</div>
@@ -215,7 +215,7 @@
 				</div>
 			</div>
 			<div class="col-md-9 text-left">
-				Built to develop javascript and AJAX skills.
+				Built to develop javascript and AJAX skills. Searches through wikipedia for relevant articles.
 			</div>
 		</div>
 		<div class="row my-bg">
@@ -230,7 +230,7 @@
 			</div>
 			<div class="col-md-9 text-left">
 				Built using mainly React for updating state, Javascript for math logic, and Bootstrap for style. I used a library for calculating the math but my own
-				logic to write step by step solutions for middle schoolers who are struggling to work out these problems.<br> <p style='color:red'>*Still in development</p>
+				logic to write step by step solutions for middle schoolers who are struggling to work out these problems.<br><br> <p style='color:red'>*Still in development</p>
 			</div>
 		</div>
 	</div>
