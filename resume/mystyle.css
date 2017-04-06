@@ -31,6 +31,8 @@
 
 #portfolio {
   background-image: url('http://photography.joshcruz.net/public/images/fence120HR.jpg');
+  color: black;
+  font-size: 1.4em;
 }
 
 .bg-setup {
