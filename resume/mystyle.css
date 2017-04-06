@@ -98,7 +98,7 @@
 /*
 *
 *
-* legacy header code 
+* legacy header code
 *
 *
 */
@@ -127,7 +127,7 @@
   list-style: none;
   float: left;
   position: relative;
-  background: black;  
+  background: black;
   /*height: 30px;*/
   /*text-align: center;*/
   /*padding-top: 7px;*/
@@ -195,8 +195,8 @@
 }
 
 #hamburger{
-  float:right; 
-  width: 48px; 
+  float:right;
+  width: 48px;
   height:35px;
 }
 
