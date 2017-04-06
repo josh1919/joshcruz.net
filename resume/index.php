@@ -201,7 +201,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-md-9 text-left">Content Management System. Built with the WAMP (Windows, Apache, MySQL, and PHP) stack. TODO: ADD MORE</div>
+			<div class="col-md-9 text-left">Content Management System. Built with the WAMP (Windows, Apache, MySQL, and PHP) stack.</div>
 		</div>
 
 		<div class="row my-bg">
@@ -230,7 +230,7 @@
 			</div>
 			<div class="col-md-9 text-left">
 				Built using mainly React for updating state, Javascript for math logic, and Bootstrap for style. I used a library for calculating the math but my own
-				logic to write step by step solutions for middle schoolers who are struggling to work out these problems.<br> *Still in development
+				logic to write step by step solutions for middle schoolers who are struggling to work out these problems.<br> <p style='color:red'>*Still in development</p>
 			</div>
 		</div>
 	</div>
