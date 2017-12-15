@@ -233,32 +233,61 @@
 				logic to write step by step solutions for middle schoolers who are struggling to work out these problems.<br><br> <p style='color:red'>*Still in development</p>
 			</div>
 		</div>
+		<div class="row my-bg">
+			<div class="col-md-3">
+				<div class="thumbnail">
+					<a href="/coffee-timer/index.html">
+						<img src="/assets/coffee-timer.PNG">
+						<caption>
+							<button onClick="location.href = '/coffee-timer/index.html'">Coffee Timer</button>
+						</caption>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-9 text-left">Coffee timer that using CSS grid and Javascript. Built to keep track of time while coffee in french press steeps.</div>
+		</div>
 	</div>
 
 	<div class="container pad25" id="contact">
 		<h1 class="text-shadow">contact</h1>
 		<div>
-			<h2>josh@joshcruz.net</h2></div>
-		</div>
-		<div id="page-footer" class="row">
-			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="#">Josh Cruz</a>
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="#home">Home</a>
-						</li>
-						<li>
-							<a href="#about">About</a>
-						</li>
-						<li>
-							<a href="#portfolio">Portfolio</a>
-						</li>
-					</ul>
-					<div class="navbar-copyright">Copyright <?php echo date("Y");?></div>
-				</div>
-			</nav>
+			<h2>josh@joshcruz.net</h2>
 		</div>
 	</div>
+	<div id="page-footer" class="container">
+		<nav class="navbar navbar-default">
+			<!-- <div class="container-fluid">
+				<a class="navbar-brand" href="#">Josh Cruz</a>
+				<ul class="nav navbar-nav">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+				</ul>
+				<div class="navbar-copyright">Copyright <?php echo date("Y");?></div>
+			</div> -->
+
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbarFooter" aria-expanded="false">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">joshcruz.net</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbarFooter">
+				<ul class="nav navbar-nav  navbar-right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+
+			</div>
+<div class="navbar-copyright text-center">Copyright <?php echo date("Y");?></div>
+		</nav>
+
+	</div>
+</div>
 </body>
 </html>
